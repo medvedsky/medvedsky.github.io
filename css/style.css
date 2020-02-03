@@ -60,48 +60,6 @@ body {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	-webkit-transition: all 0.5s ease-in-out;
 }
-@media only screen and (orientation: portrait) {
-	.wrapper {
-		width:950px !important;
-		padding-bottom: 25px;
-	}
-	.mapPreview{
-		width:900px;
-		height:450px;
-	}
-	.mapPreview:last-child{
-	margin-left:0 !important;
-}
-#club {
-	background-image:url(../img/mapPreview/clubhouse.jpg) !important;
-}
-#coastline {
-	background-image:url(../img/mapPreview/coastline.jpg) !important;
-}
-#bank {
-	background-image:url(../img/mapPreview/bank.jpg) !important;
-}
-#villa {
-	background-image:url(../img/mapPreview/villa.jpg) !important;
-}
-#consulate {
-	background-image:url(../img/mapPreview/consulate.jpg) !important;
-}
-#border {
-	background-image:url(../img/mapPreview/border.jpg) !important;
-}
-#kafe {
-	background-image:url(../img/mapPreview/kafe.jpg) !important;
-}
-.mapName{
-	color:#eaeaea;
-	width:900px !important;
-	line-height:450px !important;
-	font-size:150px !important;
-	margin:0 auto !important;
-	text-decoration:none;
-}
-}
 .mapPreview:last-child{
 	margin-left:325px;
 }
@@ -126,25 +84,25 @@ body {
 	display:block;
 }
 #club {
-	background-image:url(../img/mapPreview/clubhouseB.jpg);
+	background-image:url(../img/mapPreview/clubhouse.jpg);
 }
 #coastline {
-	background-image:url(../img/mapPreview/coastlineB.jpg);
+	background-image:url(../img/mapPreview/coastline.jpg);
 }
 #bank {
-	background-image:url(../img/mapPreview/bankB.jpg);
+	background-image:url(../img/mapPreview/bank.jpg);
 }
 #villa {
-	background-image:url(../img/mapPreview/villaB.jpg);
+	background-image:url(../img/mapPreview/villa.jpg);
 }
 #consulate {
-	background-image:url(../img/mapPreview/consulateB.jpg);
+	background-image:url(../img/mapPreview/consulate.jpg);
 }
 #border {
-	background-image:url(../img/mapPreview/borderB.jpg);
+	background-image:url(../img/mapPreview/border.jpg);
 }
 #kafe {
-	background-image:url(../img/mapPreview/kafeB.jpg);
+	background-image:url(../img/mapPreview/kafe.jpg);
 }
 .clearfix {
   display: table;
@@ -159,4 +117,31 @@ body {
 	margin-top: 10px;
 	bottom: 0;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* MOBILE */
+
+@media only screen and (orientation: portrait) {
+	.wrapper {
+		width:950px !important;
+		padding-bottom: 25px;
+	}
+	.mapPreview{
+		width:900px;
+		height:450px;
+	}
+	.mapPreview:last-child{
+	margin-left:0 !important;
+}
+	.mapName{
+	color:#eaeaea;
+	width:900px !important;
+	line-height:450px !important;
+	font-size:150px !important;
+	margin:0 auto !important;
+	text-decoration:none;
+}
+	.mapPreview:hover {
+	-webkit-transform: scale(1);
+	-webkit-transition: all 0.5s ease-in-out;
 }
