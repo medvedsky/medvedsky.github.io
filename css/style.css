@@ -1,8 +1,29 @@
 body {
-	background-color:grey;
+	background-color:white;
+	margin: 0;
 }
 .wrapper {
-	height:400px;
-	width:200px;
-	background-color: black;
+	margin: 0 auto;
+	min-height:400px;
+	width: 1000px;
+	background-color: gray;
+	position:relative;
+}
+.header {
+	width:1000px;
+	height:220px;
+	background-color: wheat;
+}
+.logoHeader {
+	height:200px;
+	width: 200px;
+	margin-top:10px;
+	background-image: url(../img/logo.svg);
+	background-size: 200px 200px;
+	float:left;
+}
+.clearfix {
+  display: table;
+  clear: both;
+  visibility: hidden;
 }
