@@ -60,8 +60,17 @@ body {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	-webkit-transition: all 0.5s ease-in-out;
 }
+@media only screen and (orientation: portrait) {
+	.mapPreview{
+		width:900px;
+		height:450px;
+	}
+	.mapPreview:last-child{
+	margin-left:0 !important;
+}
 .mapPreview:last-child{
 	margin-left:325px;
+}
 }
 .mapPreview:hover {
 	-webkit-transform: scale(1.1);
