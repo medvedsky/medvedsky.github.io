@@ -15,37 +15,31 @@
    }
   </style>
 <body>
-	<div class="wrapper">
-		<div class="header">
-			<div class="logoHeader"></div>
-			<div class="headerTitle">Pack of Wolves</div>
-		</div>
-		<div class="stratsTitle">Strats</div>
-		<div class="mapsWrapper">
-			<div class="mapPreview" id="club">
-				<a href="ClubHouseIndex.html" class="mapName">Clubhouse</a>
-			</div>
-			<div class="mapPreview" id="coastline">
-				<a href="#" class="mapName">Coastline</a>
-			</div>
-			<div class="mapPreview" id="bank">
-				<a href="#" class="mapName">Bank</a>
-			</div>
-			<div class="mapPreview" id="villa">
-				<a href="#" class="mapName">Villa</a>
-			</div>
-			<div class="mapPreview" id="consulate">
-				<a href="#" class="mapName">Consulate</a>
-			</div>
-			<div class="mapPreview" id="border">
-				<a href="#" class="mapName">Border</a>
-			</div>
-			<div class="mapPreview" id="kafe">
-				<a href="#" class="mapName">Kafe</a>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-	</div> 
-	<div class="footer"></div>
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1)
+history.go(-1);
+if (pass1.toLowerCase() == "packofstrats") {
+alert('You Got it Right!');
+window.open('index.html');
+break;
+}
+testV+=1;
+var pass1 =
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3)
+history.go(-1);
+return " ";
+}
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER>
 </body>
 </html>
