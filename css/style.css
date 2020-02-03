@@ -6,7 +6,7 @@ body {
 
 .wrapper {
 	margin: 0 auto;
-	min-height:400px;
+	min-height:1000px;
 	width: 1000px;
 	background-color: #eaeaea;
 	position:relative;
@@ -36,8 +36,85 @@ body {
 	float:left;
 	margin:180px 0 0 -99px;
 }
+.stratsTitle {
+	height:55px;
+	line-height:55px;
+	width:570px;
+	color:#262626;
+	font-size:60px;
+	margin:20px 0 0 20px;
+}
+.mapsWrapper{
+	width:975px;
+	height:500px;
+	margin:0 0 0 25px;
+}
+.mapPreview{
+	width:300px;
+	height:150px;
+	background-color:red;
+	float:left;
+	margin:25px 25px 0 0;
+	background-size:cover;
+	background-position:center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-webkit-transition: all 0.5s ease-in-out;
+}
+.mapPreview:last-child{
+	margin-left:325px;
+}
+.mapPreview:hover {
+	-webkit-transform: scale(1.1);
+	-webkit-transition: all 0.5s ease-in-out;
+}
+.mapPreview a {
+	width:300px;
+	height:150px;
+	display:block;
+}
+.mapName{
+	color:#eaeaea;
+	line-height:150px;
+	font-size:50px;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+}
+.mapName p {
+	display:block;
+}
+#club {
+	background-image:url(../img/mapPreview/clubhouseB.jpg);
+}
+#coastline {
+	background-image:url(../img/mapPreview/coastlineB.jpg);
+}
+#bank {
+	background-image:url(../img/mapPreview/bankB.jpg);
+}
+#villa {
+	background-image:url(../img/mapPreview/villaB.jpg);
+}
+#consulate {
+	background-image:url(../img/mapPreview/consulateB.jpg);
+}
+#border {
+	background-image:url(../img/mapPreview/borderB.jpg);
+}
+#kafe {
+	background-image:url(../img/mapPreview/kafeB.jpg);
+}
 .clearfix {
   display: table;
   clear: both;
   visibility: hidden;
+}
+.footer {
+	width:1000px;
+	height:50px;
+	background-color:#262626;
+	margin:0 auto;
+	margin-top: 10px;
+	bottom: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
